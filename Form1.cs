@@ -16,5 +16,17 @@ namespace Jogo_da_Forca
         {
             InitializeComponent();
         }
+
+        private void EscolhePalava()
+        {
+
+        }
+
+        private void btnStart_Click(object sender, EventArgs e)
+        {
+            pnForca.Visible = true;
+            btnStart.Visible = false;
+
+        }
     }
 }
